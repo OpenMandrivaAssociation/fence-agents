@@ -1,5 +1,5 @@
 Name: fence-agents
-Version: 3.0.2
+Version: 3.0.3
 Release: %mkrel 1
 Summary: Fencing agents for cluster suite
 URL: http://sources.redhat.com/cluster/wiki/
@@ -7,7 +7,7 @@ Source: ftp://sources.redhat.com/pub/cluster/releases/fence-agents-%{version}.ta
 Patch0: fence-agents-remove-nonexistent-subdirs.patch
 License: GPLv2
 Conflicts: cman < 3.0.0
-BuildRequires: logthread-devel ccs-devel nss-devel cman-devel libvirt-devel
+BuildRequires: cluster-devel >= %{version} nss-devel libvirt-devel
 BuildRoot: %{_tmppath}/%{name}-root
 
 %description
