@@ -1,5 +1,7 @@
+%define version 3.0.3
+
 Name: fence-agents
-Version: 3.0.3
+Version: %{version}
 Release: %mkrel 1
 Summary: Fencing agents for cluster suite
 URL: http://sources.redhat.com/cluster/wiki/
