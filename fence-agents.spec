@@ -4,6 +4,7 @@ Name: fence-agents
 Version: %{version}
 Release: %mkrel 1
 Summary: Fencing agents for cluster suite
+Group: System/Kernel and hardware
 URL: http://sources.redhat.com/cluster/wiki/
 Source: ftp://sources.redhat.com/pub/cluster/releases/fence-agents-%{version}.tar.gz
 Patch0: fence-agents-remove-nonexistent-subdirs.patch
