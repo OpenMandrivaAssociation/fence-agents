@@ -1,8 +1,8 @@
-%define version 3.0.6
+%define version 3.0.11
 
 Name: fence-agents
 Version: %{version}
-Release: %mkrel 2
+Release: %mkrel 1
 Summary: Fencing agents for cluster suite
 Group: System/Kernel and hardware
 URL: http://sources.redhat.com/cluster/wiki/
