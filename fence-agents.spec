@@ -51,3 +51,4 @@ rm -Rf %{buildroot}
 %{_sbindir}/fence_*
 %{_datadir}/fence
 %{_mandir}/man8/fence_*.8.*
+%config(noreplace) %{_sysconfdir}/cluster/fence_na.conf
