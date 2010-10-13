@@ -1,4 +1,4 @@
-%define version 3.0.16
+%define version 3.0.17
 
 Name: fence-agents
 Version: %{version}
