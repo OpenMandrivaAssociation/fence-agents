@@ -13,6 +13,7 @@ Conflicts: cman < 3.0.0
 BuildRequires: cluster-devel >= %{version} nss-devel libvirt-devel openais-devel
 BuildRequires: corosync-devel
 BuildRequires: python-pexpect
+BuildRequires: python-curl
 BuildRequires: xsltproc
 BuildRoot: %{_tmppath}/%{name}-root
 
