@@ -1,0 +1,9 @@
+diff -p -up fence-agents-3.0.2/fence/Makefile~ fence-agents-3.0.2/fence/Makefile
+--- fence-agents-3.0.2/fence/Makefile~	2009-08-21 15:28:25.000000000 +0100
++++ fence-agents-3.0.2/fence/Makefile	2009-09-08 17:19:18.000000000 +0100
+@@ -1,4 +1,4 @@
+ include ../make/defines.mk
+ include $(OBJDIR)/make/passthrough.mk
+ 
+-SUBDIRS=agents libfence libfenced fenced fence_node fence_tool man
++SUBDIRS=agents
