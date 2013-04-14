@@ -15,6 +15,8 @@ BuildRequires: corosync-devel
 BuildRequires: python-pexpect
 BuildRequires: python-curl
 BuildRequires: xsltproc
+BuildRequires:	ccs-devel
+BuildRequires:	pkgconfig(liblogthread)
 BuildRoot: %{_tmppath}/%{name}-root
 
 %description
