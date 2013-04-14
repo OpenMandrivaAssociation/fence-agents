@@ -16,7 +16,7 @@ BuildRequires: python-pexpect
 BuildRequires: python-curl
 BuildRequires: xsltproc
 BuildRequires:	ccs-devel
-BuildRequires:	pkgconfig(liblogthread)
+BuildRequires:	pkgconfig(liblogthread) cman-devel
 BuildRoot: %{_tmppath}/%{name}-root
 
 %description
