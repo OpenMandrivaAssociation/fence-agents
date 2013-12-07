@@ -2,7 +2,7 @@
 
 Name: fence-agents
 Version: %{version}
-Release: 7
+Release: 8
 Summary: Fencing agents for cluster suite
 Group: System/Kernel and hardware
 URL: http://sources.redhat.com/cluster/wiki/
