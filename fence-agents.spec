@@ -28,6 +28,10 @@ suite
 %setup -q
 %patch0 -p1
 
+#use python2
+sed -i 's/python/python2/' make/fencebuild.mk
+sed -i 's#/usr/bin/python#/usr/bin/python2#' fence/agents/*/*.py
+
 %build
 ./configure \
         --libdir=%{_libdir} \
