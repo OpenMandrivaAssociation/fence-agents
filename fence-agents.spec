@@ -12,8 +12,8 @@ License: GPLv2
 Conflicts: cman < 3.0.0
 BuildRequires: cluster-devel >= %{version} nss-devel libvirt-devel openais-devel
 BuildRequires: corosync-devel
-BuildRequires: python-pexpect
-BuildRequires: python-curl
+BuildRequires: python2-pexpect
+BuildRequires: python2-curl
 BuildRequires: xsltproc
 BuildRequires:	ccs-devel
 BuildRequires:	pkgconfig(liblogthread) cman-devel
