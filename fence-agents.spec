@@ -10,6 +10,11 @@ Source: https://fedorahosted.org/releases/c/l/cluster/fence-agents-%{version}.ta
 Patch0: fence-agents-remove-nonexistent-subdirs.patch
 License: GPLv2
 Conflicts: cman < 3.0.0
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: cluster-devel >= %{version} nss-devel libvirt-devel openais-devel
 BuildRequires: corosync-devel
 BuildRequires: python2-pexpect
